@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Education</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+
+        <!--       header start-->
+        <header class="sticky">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo.png" class="img-fluid" alt="Logo">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarnav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse text-center justify-content-center" id="navbarnav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item"><a class="nav-link" href="#banner">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#course">Courses</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#event">Events</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#stand">Teachers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#moment">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#last">Contacts</a></li>
+                        </ul>
+                        <div class="dropdown mr-lg-2">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-user"></i>
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item disabled" href="#">Profile</a>
+                                <a class="dropdown-item disabled" href="#">Courses</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">LogIn</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-search"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-cus" aria-labelledby="dropdownMenuLink">
+                                <form action="#">
+                                    <div class="input-group justify-content-center" >
+                                        <input type="text" id="search" class="form-control-sm" placeholder="Search">
+                                        <button type="button" onclick="search(document.getElementById('#search').value)" class="cus-btn btn"><i class="none"></i>Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--       header end-->
+        <!--        banner start-->
+        <section id="banner" class="position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  justify-content-center">
+                        <div class="banner-text text-center">
+                            <h1>Tommorow land for Kids Always </h1>
+                            <div class="ban-scroll" onclick="topFunction()">
+                                <h5>scroll</h5>
+                                <!--                                <i class="fa fa-long-arrow-alt-down"></i>-->
+                                <img src="img/arrow-img.png" class="img-fluid arrow" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        banner end-->
+        <!--        about start-->
+        <section id="about" class="position-relative">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="about-title">
+                        <h1>Our desiration on kid education</h1>
+                        <img src="img/abt-border.png" class="img-fluid" alt="border">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <div class="abt-text">
+                            <h2>About Giraffe Schools</h2>
+                            <img src="img/abt-hr.png" class="img-fluid img-hr" alt="">
+                            <p>As a word from our heart, we love to dedicate for Kids the valuable things in Life. A great education is a must for a solid developments in both soul and mind for kids. We go with kids to play, learn, and grow better.<br/><br/>
+
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                            </p>
+                            <a href="#">
+                                <img src="img/abt-btn.png" class="img-fluid img-btn hvr-wobble-skew" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 align-self-center order-1 order-md-2 mb-4 mb-md-0">
+                        <div class="abt-img">
+                            <img src="img/abt-img.jpg" class="img-fluid" alt="Kid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        about end-->
+        <!--        active start-->
+        <section id="activity" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="activity-title">
+                            <h1>Our desiration on kid education</h1>
+                            <img src="img/actv-hr.png" class="img-fluid" alt="border">
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="act-item1">
+                            <img src="img/actvt-1.jpg" class="img-fluid rounded-circle" alt="">
+                            <h2>Best-For-Kids<br/>
+                                Programs</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-4 mt-sm-0">
+                        <div class="act-item1">
+                            <img src="img/actbt-2.jpg" class="img-fluid rounded-circle" alt="">
+                            <h2>Kind-hearted<br/>
+                                Teacherd</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-4 mt-md-0">
+                        <div class="act-item1">
+                            <img src="img/actvt-3.jpg" class="img-fluid rounded-circle" alt="">
+                            <h2>Inspirational<br/>
+                                Environment</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-4 mt-md-0">
+                        <div class="act-item1">
+                            <img src="img/actvt-4.jpg" class="img-fluid rounded-circle" alt="">
+                            <h2>Top-School<br/>
+                                Belong</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        active end-->
+        <!--        course start-->
+        <section id="course" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="course-title">
+                            <h1>Featured Courses We Are Offering</h1>
+                            <div class="d-none d-lg-block">
+                                <img src="img/course-hr.png" class="img-fluid " alt="border">
+                            </div>
+                            <div class="d-block d-lg-none">
+                                <img src="img/abt-border.png" class="img-fluid " alt="bor4 mt-lg-0er">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-6 mt-5 mt-md-4 mt-lg-0">
+                        <div class="card h-100 card1">
+                            <div class="card-header">
+                                <span>7:00AM - 11:00AM</span>
+                                <img src="img/card1-header-icon.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="b-img">
+                                    <img src="img/card-img2.jpg" class="img-fluid w-100" alt="">
+                                    <div class="price">
+                                        <h5>$79</h5>
+                                        <p>p/w</p>
+                                    </div>
+                                </div>
+                                <h2>Math</h2>
+                                <p class="sp-p">Offering 30 Maths lessons in English with diversified topics. </p>
+                            </div>
+                            <div class="card-footer">
+                                <span>Age: 7 Years</span>
+                                <span>|</span>
+                                <span>Class Size: 15</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-4 mt-lg-0">
+                        <div class="card card2 h-100">
+                            <div class="card-header">
+                                <span>9:00AM - 11:30AM</span>
+                                <img src="img/card2-header-icon.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="b-img">
+                                    <img src="img/card-img1.jpg" class="img-fluid w-100" alt="">
+                                    <div class="price">
+                                        <h5>$59</h5>
+                                        <p>p/w</p>
+                                    </div>
+                                </div>
+                                <h2>Art learning</h2>
+                                <p class="sp-p">10 lessons to teaach little kids way to create simple art as crafting and paper art. </p>
+                            </div>
+                            <div class="card-footer">
+                                <span>Age:5-7 Years</span>
+                                <span>|</span>
+                                <span>Class Size: 15</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="card h-100 card3">
+                            <div class="card-header">
+                                <span>1:00PM - 3:00PM</span>
+                                <img src="img/card3-header-icon.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="b-img">
+                                    <img src="img/card-img3.jpg" class="img-fluid w-100" alt="">
+                                    <div class="price">
+                                        <h5>$29</h5>
+                                        <p>p/d</p>
+                                    </div>
+                                </div>
+                                <h2>Sciences</h2>
+                                <p class="sp-p">Full of our complete ScienceWorld curriculum with more than 50 lessons are available.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span>Age:7-12 Years</span>
+                                <span>|</span>
+                                <span>Class Size: 35</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="card h-100 card4">
+                            <div class="card-header">
+                                <span>2:00PM - 5:30PM</span>
+                                <img src="img/card4-header-icon.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="card-body">
+                                <div class="b-img">
+                                    <img src="img/card-img4.jpg" class="img-fluid w-100" alt="">
+                                    <div class="price">
+                                        <h5>$59</h5>
+                                        <p>p/w</p>
+                                    </div>
+                                </div>
+                                <h2>Environment Skills</h2>
+                                <p class="sp-p">Our Environmental Skills Curriculum consists of 5 e-lessons in English.</p>
+                            </div>
+                            <div class="card-footer">
+                                <span>Age:9 Years</span>
+                                <span>|</span>
+                                <span>Class Size: 50</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 course-btn">
+                        <button type="button" class="btn w-100">
+                            <span>&plus;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        course end-->
+        <!--        moment start-->
+        <section id="moment" class="" uk-lightbox>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="moment-title">
+                            <h1>memorable moments</h1>
+                            <img src="img/actv-hr.png" class="img-fluid" alt="border">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img1.jpg">
+                                <img src="img/moment-img1.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img2.jpg">
+                                <img src="img/moment-img2.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img3.jpg">
+                                <img src="img/moment-img3.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img4.jpg">
+                                <img src="img/moment-img4.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img5.jpg">
+                                <img src="img/moment-img5.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img6.jpg">
+                                <img src="img/moment-img6.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img7.jpg">
+                                <img src="img/moment-img7.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4">
+                        <div class="mo-img w-100">
+                            <a href="img/moment-img8.jpg">
+                                <img src="img/moment-img8.jpg" class="img-fluid w-100" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="mo-btn">
+                            <a href="#">
+                                <img src="img/mo-btn.png" class="img-fluid hvr-wobble-skew" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        moment end-->
+        <!--        stand start-->
+        <section id="stand" class="">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="offset-lg-3 col-lg-6 offset-sm-1 col-sm-10 col-12">
+                        <div class="stand-head">
+                            <div class="sh-icon">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="sh-ancor">
+                                <a href="http://t.co/Zxxbb3ssxA">http://t.co/Zxxbb3ssxA</a>
+                            </div>
+                            <p><span>“</span> Great embracing among school, parents and kids at Giraffe! We love to join outdoor 
+                                activities the school offered, useful and meaningful. <span>”</span></p>
+                            <h6>#GiraffeForKids , #EducationOfChildren , GiraTweets </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center sp-margin">
+                    <div class="col-12">
+                        <div class="stand-title">
+                            <h1>Who stand by Your Kids Always</h1>
+                            <img src="img/abt-border.png" class="img-fluid" alt="border">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-sm-5 align-self-center">
+                                <div class="stand-img">
+                                    <img src="img/stand-women1.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7 mt-4 mt-sm-0 align-self-center">
+                                <div class="stand-text">
+                                    <h2>Linda Glendell</h2>
+                                    <h5>Life Skills</h5>
+                                    <hr>
+                                    <p>Linda is known as a full of energy teacher with enthusiastic lessons, she motivates your child to learn and create in the best way. </p>
+                                    <div class="d-flex flex-row">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-tumblr"></i>
+                                        </a>
+                                    </div>
+                                    <a href="#" class="sd-ancor">Follow me :&#41;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="row">
+                            <div class="col-sm-5 align-self-center">
+                                <div class="stand-img">
+                                    <img src="img/stand-women2.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7 mt-4 mt-sm-0 align-self-center">
+                                <div class="stand-text">
+                                    <h2 class="ja-green">Jesical Alba</h2>
+                                    <h5>Music Teacher</h5>
+                                    <hr>
+                                    <p>Jesical is known as a full of energy teacher with music lessons, she motivates your child to learn and create in the best way. </p>
+                                    <div class="d-flex flex-row">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-tumblr"></i>
+                                        </a>
+                                    </div>
+                                    <a href="#" class="sd-ancor">Follow me :&#41;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-lg-5 mt-4">
+                        <div class="row">
+                            <div class="col-sm-5 align-self-center">
+                                <div class="stand-img">
+                                    <img src="img/stand-man1.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7 mt-4 mt-sm-0 align-self-center">
+                                <div class="stand-text">
+                                    <h2 class="jd-red">Jack Daniels</h2>
+                                    <h5>Sciences Teacher</h5>
+                                    <hr>
+                                    <p>Jack is known as a full of energy teacher with sciences lessons, she motivates your child to learn and create in the best way. </p>
+                                    <div class="d-flex flex-row">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-tumblr"></i>
+                                        </a>
+                                    </div>
+                                    <a href="#" class="sd-ancor">Follow me :&#41;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-lg-5 mt-4">
+                        <div class="row">
+                            <div class="col-sm-5 align-self-center">
+                                <div class="stand-img">
+                                    <img src="img/stand-man2.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7 mt-4 mt-sm-0 align-self-center">
+                                <div class="stand-text">
+                                    <h2 class="pr-yellow">Phill Ross</h2>
+                                    <h5>Math Teacher</h5>
+                                    <hr>
+                                    <p>Phill is known as a full of energy teacher with math lessons, she motivates your child to learn and create in the best way. </p>
+                                    <div class="d-flex flex-row">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-tumblr"></i>
+                                        </a>
+                                    </div>
+                                    <a href="#" class="sd-ancor">Follow me :&#41;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        stand end-->
+        <!--        whatdid start-->
+        <section id="did" class="">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <div class="did-title">
+                            <h1>what we did</h1>
+                            <img src="img/did-hr.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="did-count">
+                            <h2 class="counter" >8322</h2>
+                            <img src="img/did-bb1.png" class="img-fluid" alt="">
+                            <h5>teaching hours</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-5 mt-sm-0">
+                        <div class="did-count">
+                            <h2 class="counter">1422</h2>
+                            <img src="img/did-bb2.png" class="img-fluid" alt="">
+                            <h5>meals per year</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-5 mt-md-0">
+                        <div class="did-count">
+                            <h2 class="counter">5121</h2>
+                            <img src="img/did-bb3.png" class="img-fluid" alt="">
+                            <h5>lessons</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-5 mt-md-0">
+                        <div class="did-count">
+                            <h2 class="counter">600</h2>
+                            <img src="img/did-bb4.png" class="img-fluid" alt="">
+                            <h5>awards</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        whatdid end-->
+        <!--        event start-->
+        <section id="event" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="event-head">
+                                    <h1>events timeline</h1>
+                                    <img src="img/event-hr.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row date1-move">
+                            <div class="col-3">
+                                <div class="date1">
+                                    <h2>15</h2>
+                                    <p>AUG</p>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <div class="date1-text">
+                                    <h3>Arts Celebration Night</h3>
+                                    <p><i class="fa fa-clock"></i> STARTING <span>7:00 PM</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row date2-move">
+                            <div class="col-3">
+                                <div class="date2">
+                                    <h2>12</h2>
+                                    <p>AUG</p>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <div class="date2-text">
+                                    <h3>Parents in Kids' Sneakers Day</h3>
+                                    <p><i class="fa fa-clock"></i> STARTING <span>8:00 am - 5:00 pm</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row date3-move">
+                            <div class="col-3">
+                                <div class="date3">
+                                    <h2>09</h2>
+                                    <p>AUG</p>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <div class="date3-text">
+                                    <h3>Coming to Kindergarten</h3>
+                                    <p><i class="fa fa-clock"></i> STARTING <span>8:00 am - 5:00 pm</span></p>
+                                    <h6>The special program of transition activities enables the entire kindergarten team to get to know the new class of children. </h6>
+                                    <a href="#">register now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row date4-move">
+                            <div class="col-3">
+                                <div class="date4">
+                                    <h2>12</h2>
+                                    <p>AUG</p>
+                                </div>
+                            </div>
+                            <div class="col-9 align-self-center">
+                                <div class="date4-text">
+                                    <h3>Math Party</h3>
+                                    <p><i class="fa fa-clock"></i> STARTING <span>10:00 am</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 mt-5 mt-lg-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="news-head">
+                                    <h1>recent news</h1>
+                                    <img src="img/event-hr.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row news1-move">
+                            <div class="col-sm-6">
+                                <div class="news1-img">
+                                    <img src="img/news-img1.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-4 mt-sm-0 align-self-center">
+                                <div class="news1-text">
+                                    <h3>Activities Improves Mind</h3>
+                                    <img src="img/news-hr1.png" class="img-fluid" alt="">
+                                    <p><i class="fa fa-calendar-alt"></i> August 22, 2016</p>
+                                    <h5>Lorem ipsum dolor sit amet, malesuada arcu dui amet sociis libero in, velit consequat fusce, a arcu odio ipsum congue sit purus, tempus cras sed justo vel arcu.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row news2-move">
+                            <div class="col-sm-6">
+                                <div class="news2-img">
+                                    <img src="img/news-img2.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-4 mt-sm-0 align-self-center">
+                                <div class="news2-text">
+                                    <h3>Back To School</h3>
+                                    <img src="img/news-hr2.png" class="img-fluid" alt="">
+                                    <p><i class="fa fa-calendar-alt"></i> August 22, 2016</p>
+                                    <h5>Lorem ipsum dolor sit amet, malesuada arcu dui amet sociis libero in, velit consequat fusce, a arcu odio ipsum congue sit purus, tempus cras sed justo vel arcu.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row news3-move">
+                            <div class="col-sm-6">
+                                <div class="news3-img">
+                                    <img src="img/news-img3.jpg" class="img-fluid w-100" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mt-4 mt-sm-0 align-self-center">
+                                <div class="news3-text">
+                                    <h3>Back To School</h3>
+                                    <img src="img/news-hr3.png" class="img-fluid" alt="">
+                                    <p><i class="fa fa-calendar-alt"></i> August 22, 2016</p>
+                                    <h5>Lorem ipsum dolor sit amet, malesuada arcu dui amet sociis libero in, velit consequat fusce, a arcu odio ipsum congue sit purus, tempus cras sed justo vel arcu.</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        event end-->
+        <section id="last" uk-lightbox>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 order-1 order-sm-0">
+                        <div class="l-about">
+                            <img src="img/footer-logo.png" class="img-fluid" alt="">
+                            <p><span>Giraffe</span> is a wonderland for Kids to learn, play, and grow naturally and creatively. </p>
+                            <ul>
+                                <li><i class="fa fa-check"></i> Advanced Education Programs</li>
+                                <li><i class="fa fa-check"></i> Creativity &amp; Thinking</li>
+                                <li><i class="fa fa-check"></i> Yoga &amp; Swimming</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 order-2 order-sm-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="insta-head">
+                                    <h1>instagram</h1>
+                                    <img src="img/insta-hr.png" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="insta-img">
+                                    <a href="img/moment-img1.jpg">
+                                        <img src="img/moment-img1.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="insta-img">
+                                    <a href="img/moment-img2.jpg">
+                                        <img src="img/moment-img2.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="insta-img">
+                                    <a href="img/moment-img3.jpg">
+                                        <img src="img/moment-img3.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="insta-img">
+                                    <a href="img/moment-img4.jpg">
+                                        <img src="img/moment-img4.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="insta-img">
+                                    <a href="img/moment-img5.jpg">
+                                        <img src="img/moment-img5.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="insta-img">
+                                    <a href="img/moment-img6.jpg">
+                                        <img src="img/moment-img6.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 order-4 order-sm-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="contact-head">
+                                    <h1>contact us</h1>
+                                    <img src="img/contact-hr.png" class="img-fluid" alt="">
+                                    <ul>
+                                        <li><i class="fas fa-mobile-alt"></i> Phone: +541 595 8389</li>
+                                        <li><i class="far fa-envelope"></i> Mail: Giraffe@Yolotheme.com</li>
+                                        <li><i class="fas fa-map-marker-alt"></i> Address: Proctor Blvd, Sandy, Oregon</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 order-3 order-sm-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="newsletter-head">
+                                    <h1>Newsletter signup</h1>
+                                    <img src="img/footer3-hr.png" class="img-fluid" alt="">
+                                    <p>Get latest updates, news, survays &amp; offers</p>
+                                    <form action="#">
+                                        <div class="form-group justify-content-center">
+                                            <input type="text" name="subscribe" class="form-control">
+                                            <button type="submit" class="btn">
+                                                <i class="fa fa-share"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                    <div class="d-flex flex-row">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-pinterest-p"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-tumblr"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fab fa-vimeo-v"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--        footer start-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 footer-move justify-content-center">
+                        <ul>
+                            <li><a href="#banner" class="list-a">home</a></li>
+                            <li>|</li>
+                            <li><a href="#did" class="list-a">portfolio</a></li>
+                            <li>|</li>
+                            <li><a href="#about" class="list-a">about us</a></li>
+                            <li>|</li>
+                            <li><a href="#last" class="list-a">contact us</a></li>
+                            <li>|</li>
+                            <li><a href="#event" class="list-a">event</a></li>
+                        </ul>
+                        <div class="copy">
+                            <p>Giraffe© Yolotheme 2016 Copyright</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--        footer end-->
+
+
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script>
+            $('.nav-link').click(function(e){
+                let divCoords = $(e.target.hash).offset();
+                let height = $('nav').height();
+                e.preventDefault();
+                window.scrollTo({
+                    left: divCoords.left, 
+                    top: divCoords.top - (height + 15),
+                    behavior: 'smooth'
+                });
+            }); 
+            $('.list-a').click(function(e){
+                let divCoords = $(e.target.hash).offset();
+                let height = $('nav').height();
+                e.preventDefault();
+                window.scrollTo({
+                    left: divCoords.left, 
+                    top: divCoords.top - (height + 15),
+                    behavior: 'smooth'
+                });
+            }); 
+
+            function search(string){
+                window.find(string).css("background","#FF0");
+            }
+
+            $(document).ready(function(){
+                $(".none").click(function(){
+                    $(".cus-btn").toggleClass("active");
+                    $("input[type='text']").toggleClass("active");
+                });
+            });
+
+            //            $(document).ready(function(){
+            //               $('.arrow').click(function(){
+            //                  var h = $('#banner').outerHeight();
+            //                   $('body,html').animate({scrollTop:h},1000);
+            //               }); 
+            //            });
+            function topFunction() {
+                document.body.scrollTop = 1000; // For Safari
+                document.documentElement.scrollTop = 1000; // For Chrome, Firefox, IE and Opera
+                $('html, body').animate({scrollTop:0}, 2000);
+            }
+
+            jQuery(document).ready(function($) {
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+            });
+        </script>
+
+    </body>
+</html>

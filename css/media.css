@@ -1,0 +1,436 @@
+/* start small than sm */
+@media (max-width: 575px)
+{
+    /*   header start*/
+    header .nav-link
+    {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 2px !important;
+    }
+    header .nav-link:hover
+    {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+    header .dropdown-menu
+    {
+        left: 45%;
+    }
+    header .dropdown-menu-cus
+    {
+        left: 0%;
+    }
+    /*   header end*/
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        font-size: 32px;
+        margin: 120px 0 130px;
+    }
+    #banner .ban-scroll h5
+    {
+        font-size: 16px;
+    }
+    #banner .ban-scroll .img-fluid
+    {
+        max-width: 7%;
+    }
+    /*banner end*/
+    /*    about start*/
+    #about
+    {
+        padding: 50px 0 50px;
+    }
+    #about .about-title h1
+    {
+        font-size: 22px;
+    }
+    #about .about-title .img-fluid
+    {
+        max-width: 70%;
+        padding: 12px 0 35px;
+    }
+    #about .abt-text h2
+    {
+        font-size: 21px;
+    }
+    #about .abt-text .img-hr
+    {
+        max-width: 40% !important;
+    }
+    /*    about end*/
+    /*activity start*/
+    #activity
+    {
+        padding: 50px 0;
+    }
+    #activity .activity-title h1
+    {
+        font-size: 22px;
+    }
+    #activity .activity-title .img-fluid
+    {
+        max-width: 70%;
+    }
+    #activity .activity-title img
+    {
+        padding: 15px 0 35px;
+    }
+    #activity h2
+    {
+        font-size: 20px;
+    }
+    /*activity end*/
+    /*    course start*/
+    #course
+    {
+        padding: 50px 0;
+    }
+    #course .course-title h1,#moment .moment-title h1,#stand .stand-title h1
+    {
+        font-size: 22px;
+    }
+    /*    course end*/
+    /*    moment start*/
+    #moment
+    {
+        padding: 50px 0;
+    }
+    #moment .mo-btn .img-fluid
+    {
+        padding-top: 50px;
+        max-width: 40%;
+    }
+    /*    moment end*/
+    /*    stand start*/
+    #stand
+    {
+        padding: 60px 0;
+    }
+    #stand .stand-text h2
+    {
+        font-size: 19px;
+    }
+    #stand .stand-text h5
+    {
+        font-size: 13px;
+    }
+    #stand .stand-text hr {
+        margin: 8px 0 14px;
+    }
+    #stand .stand-text .d-flex a {
+        font-size: 16px;
+    }
+    #stand .stand-text .sd-ancor {
+        font-size: 16px;
+    }
+    /*    stand end*/
+    /*    event start*/
+    #event
+    {
+        padding: 60px 0 0;
+    }
+    #event .event-head h1,#event .news-head h1
+    {
+        font-size: 24px;
+    }
+    #event .event-head img,#event .news-head img
+    {
+        margin-top: 10px;
+    }
+    #event .date1-move
+    {
+        margin-top: 45px;
+    }
+    #event .date1,#event .date2,#event .date3,#event .date4
+    {
+        width: 70px;
+        height: 70px;
+    }
+    #event .date1 h2,#event .date2 h2,#event .date3 h2,#event .date4 h2
+    {
+        font-size: 35px;
+    }
+    #event .date1 p,#event .date2 p,#event .date3 p,#event .date4 p
+    {
+        font-size: 14px;
+    }
+    #event .date1-text h3,#event .date2-text h3,#event .date3-text h3,#event .date4-text h3
+    {
+        font-size: 16px;
+    }
+    #event .date1-text p,#event .date2-text p,#event .date3-text p,#event .date4-text p
+    {
+        font-size: 12px;
+    }
+    #event .date3-text h6
+    {
+        margin: 9px 0;
+        line-height: 22px;
+    }
+    #event .date3-text a
+    {
+        font-size: 14px;
+    }
+    /*    event end*/
+    #event .news2-move,#event .news3-move
+    {
+        padding-top: 35px;
+    }
+
+    /*    last start*/
+    #last
+    {
+        padding: 440px 0 30px;
+    }
+    #last .l-about p {
+        padding: 20px 0 4px;
+    }
+    #last .insta-head img, #last .contact-head img, #last .newsletter-head img {
+        margin: 6px 0 20px;
+    }
+    #last .insta-head h1, #last .contact-head h1, #last .newsletter-head h1 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    #last .newsletter-head p {
+        margin-bottom: 12px;
+    }
+    /*    last end*/
+    /*    footer start*/
+    .footer-move
+    {
+        text-align: center;
+    }
+    footer ul
+    {
+        float: none;
+        display: block;
+    }
+    
+    footer ul li
+    {
+        float: none;
+    }
+    footer .copy,footer .copy p
+    {
+        float: none;
+        margin-top: 5px;
+    }
+    footer ul li a,footer ul li
+    {
+        font-size: 16px;
+            margin-bottom: 7px;
+    }
+    footer ul li:nth-child(even)
+    {
+        margin: 0 10px;
+        display: none;
+    }
+    /*    footer end*/
+}
+/* end small than sm */
+
+/* start sm */
+@media (min-width: 576px) and (max-width: 767px)
+{
+    /*   header start*/
+    header .nav-link
+    {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 2px !important;
+    }
+    header .nav-link:hover
+    {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+    header .dropdown-menu
+    {
+        left: 45%;
+    }
+    header .dropdown-menu-cus
+    {
+        left: 45%;
+    }
+    /*   header end*/
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 150px 0 130px;
+    }
+    /*banner end*/
+    /*    moment start*/
+    #moment .mo-btn .img-fluid
+    {
+        max-width: 25%;
+    }
+    /*    moment end*/
+    /*    last start*/
+    #last
+    {
+        padding: 290px 0 65px;
+    }
+    #last .newsletter-head h1 {
+        font-size: 22px;
+    }
+    /*    last end*/
+    /*    footer start*/
+    .footer-move
+    {
+        text-align: center;
+    }
+    footer ul
+    {
+        float: none;
+        display: inline-block;
+    }
+    footer .copy,footer .copy p
+    {
+        float: none;
+        margin-top: 7px;
+    }
+    /*    footer end*/
+}
+/* end sm */
+
+/* start md */
+@media (min-width: 768px) and (max-width: 991px)
+{
+    /*   header start*/
+    header .nav-link
+    {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        padding-top: 2px !important;
+    }
+    header .nav-link:hover
+    {
+        background-color: transparent;
+        color: #f05c5c !important;
+    }
+    header .dropdown-menu
+    {
+        left: 45%;
+    }
+    header .dropdown-menu-cus
+    {
+        left: 45%;
+    }
+    /*   header end*/
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 210px 0 180px;
+    }
+    /*banner end*/
+    /*    moment start*/
+    #moment .mo-btn .img-fluid
+    {
+        max-width: 25%;
+    }
+    /*    moment end*/
+    /*    did start*/
+    #did .did-count h2
+    {
+        font-size: 45px;
+    }
+    #did .did-count h5
+    {
+        font-size: 20px;
+    }
+    /*    did end*/
+    /*    last start*/
+    #last
+    {
+        padding: 270px 0 80px;
+    }
+    /*    last end*/
+    /*    footer start*/
+    .footer-move
+    {
+        text-align: center;
+    }
+    footer ul
+    {
+        float: none;
+        display: inline-block;
+    }
+    footer .copy,footer .copy p
+    {
+        float: none;
+        margin-top: 7px;
+    }
+    /*    footer end*/
+}
+/* end md */
+
+/* start lg */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 260px 0 240px;
+    }
+    /*banner end*/
+    /*    course start*/
+    #course .course-title .img-fluid
+    {
+        max-width: 80%;
+    }
+    #course .card-footer span
+    {
+        font-size: 14px;
+    }
+    /*    course end*/
+}
+/* end lg */
+
+/* start xl */
+@media (min-width: 1200px)
+{
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 280px 0 260px;
+    }
+    /*banner end*/
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1350px)
+{
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 300px 0 280px;
+    }
+    /*banner end*/
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1500px)
+{
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 320px 0 300px;
+    }
+    /*banner end*/
+}
+/* end xl */
+/* start xl */
+@media (min-width: 1750px)
+{
+    /*banner start*/
+    #banner .banner-text h1
+    {
+        margin: 380px 0 400px;
+    }
+    /*banner end*/
+}
+/* end xl */
+/*media query end*/
